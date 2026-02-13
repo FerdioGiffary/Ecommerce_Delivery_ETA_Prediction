@@ -1,0 +1,23 @@
+# mac
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Raw dataset (ignore all except combined)
+dataset/raw/
+dataset/*.csv
+!dataset/combined/
+!dataset/combined/olist_combined_dataset.csv
+
+# Large temp files
+*.twbx
+*.twb
+*.jpeg
+*.png
+
+# Environm^
